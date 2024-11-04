@@ -26,11 +26,23 @@ int main() {
     cout << "Twice the product of the numbers is: "        //Outputs Text
         << doubleMultiply(num1, num2) << endl;       //Outputs Result of a Function
 
-    cout << "Enter Three Decimals: ";      //Asks for 3 decimals
+    cout << "\nEnter Three Decimals: ";      //Asks for 3 decimals
     cin >> doub1 >> doub2 >> doub3;        //Stores to variables
     cout << "The Sum of the Three Decimals is: " << getSum(doub1, doub2, doub3) << endl;        //Outputs the sum of the 3 decimnals
 
     return 0;       //exits successfully
+
+    /*
+    Choose a Number: 12890
+    The Squared Root of 12890 is 113.534.    
+    12890 to the Fourth Power is 2.76065e+16.
+    12890 Floors to 12890.
+
+    Enter two integers: 19023 12
+    Twice the product of the numbers is: 456552
+    Enter Three Decimals: 123091283.123 1238.123 1923.423
+    The Sum of the Three Decimals is: 1.23094e+08
+    */
 }
 
 int doubleMultiply(int a, int b) {  //Function for doubleMultiply
